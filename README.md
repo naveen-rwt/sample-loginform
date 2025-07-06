@@ -23,12 +23,3 @@ Built with HTML, CSS, and JavaScript.
 5. Click **Dark Mode** to toggle between light and dark themes.
 
 ---
-
-## Live Demo
-
-[GitHub Pages Link](https://github.com/naveen-rwt/sample-loginform.git)
-
----
-
-## File Structure
-
