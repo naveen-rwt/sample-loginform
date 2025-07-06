@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> LOG-IN FORM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="gfg-div">
+
+    <!-- Dark mode toggle -->
+    <div style="text-align:center; margin-bottom:10px;">
+      <button id="themeToggle" class="theme-button"> Dark Mode</button>
+    </div>
+
+    <!-- Logo -->
+    <div class="gfg-logo"></div>
+
+    <!-- Title -->
+    <div class="gfg-title">DEMO</div>
+    <div class="gfg-sub-title">LOG-IN FORM</div>
+
+    <!-- Form -->
+    <form action="#" method="POST">
+      <div class="gfg-input-fields">
+        <!-- Email -->
+        <label for="email" class="visually-hidden">Email</label>
+        <div class="gfg-email">
+          <input type="email" name="email" id="email" placeholder="Email" required />
+        </div>
+
+        <!-- Password -->
+        <label for="password" class="visually-hidden">Password</label>
+        <div class="gfg-password">
+          <input type="password" name="password" id="password" placeholder="Password" required minlength="6" />
+        </div>
+
+        <!-- Password toggle -->
+        <div style="text-align:right; margin-top:-15px;">
+          <button type="button" id="togglePassword" class="toggle-btn">Show</button>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <button class="gfg-button" type="submit">Sign In</button>
+
+      <!-- Links -->
+      <div class="gfg-link">
+        <a href="#">Forgot password?</a> or <a href="#">Signup</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
